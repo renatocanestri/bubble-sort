@@ -1,8 +1,8 @@
 def bubble_sort(array)
- swapped = true
-   while swapped
-     swapped = false
-     array.each_with_index do |element, index|
+  swapped = true
+  while swapped
+    swapped = false
+    array.each_with_index do |element, index|
       if (index > 0)
         if (array[index - 1] > array[index])
           temp_element = array[index - 1]
